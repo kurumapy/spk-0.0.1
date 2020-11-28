@@ -1,6 +1,8 @@
 # spk-0.0.1
 SPK - a program that allows you to scan hosts for open ports
 
+Version: alpha 0.0.1
+
 *Install for Termux:*
 
 `pkg update & pkg upgrade`
