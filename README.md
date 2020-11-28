@@ -23,7 +23,11 @@ SPK - a program that allows you to scan hosts for open ports
 
 `sudo apt-get upgrade`
 
+`apt-get install git`
+
 `apt-get install python2`
+
+`pip3 install termcolor`
 
 `git clone https://github.com/kurumapy/spk-0.0.1`
 
