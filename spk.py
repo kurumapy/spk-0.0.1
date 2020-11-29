@@ -1,9 +1,6 @@
 from termcolor import colored
 import socket
 import sys
-import os
-
-os.system('cls' if os.name == 'nt' else 'clear')
 
 def fanc1():
 	color_a = colored("[OPEN] ", 'green')
@@ -29,7 +26,7 @@ def fanc2():
 	color_d = colored("[+] ", 'blue')
 
 	host = input(color_d + "Host --> ")
-	port = [20, 21, 22, 23, 42, 43, 53, 67, 69, 80, 1030, 8888, 1900, 443, 880, 53, 55, ]
+	port = [20, 21, 22, 23, 25, 110, 119, 143, 465, 995, 993, 587, 563, 42, 43, 53, 67, 69, 80, 1030, 8888, 1900, 443, 880, 53, 55, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
 	
 	for i in port:
 		try:
